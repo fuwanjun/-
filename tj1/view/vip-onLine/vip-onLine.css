@@ -1,0 +1,143 @@
+*{
+    font-family:SourceHanSansCN;
+}
+header {
+    width:100%;
+    height: 2rem;
+    background: #fff;
+    text-align: center;
+    /*font-weight:bold;*/
+    line-height: 2rem;
+    position: fixed;
+    z-index:9999;
+    top:0;
+    left:0;
+}
+
+header p {
+    font-size: 1rem;
+}
+header .tit{
+    font-weight:bold;
+}
+.flex{
+    display: flex;
+}
+.back{
+    position: absolute;
+    top:0;
+    left:0;
+    width:2rem;
+    height:2rem;
+}
+.head-right-text{
+    position: absolute;
+    color: #b2b2b2;
+    top:0;
+    right:0.5rem;
+    font-size:0.8rem;
+    width:2rem;
+    height:2rem;
+}
+.head-banner{
+    width:100%;
+    max-height: 15.5rem;
+    background: #E8E8E8;
+    margin-top:2rem;
+}
+.banner{
+    width:100%;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+}
+img{
+    width:100%;
+    height:100%;
+}
+.tit,.tit-s{
+    text-align: center;
+}
+.vip .tit-s:before{
+    content: '';
+    position: absolute;
+    width:1rem;
+    height:2px;
+    background: #000;
+    top:0;
+    left:0;
+}
+.vip .tit,.recommend .tit,.expert .tit,.ops .tit,.medical .tit{
+    font-size:0.9rem;
+    font-weight:bold;
+    color: #333;
+}
+.tit2{
+    justify-content: center;
+}
+.tit2 .tit-text{
+    font-size:0.8rem;
+}
+.more-text .tit-text{
+    font-size:0.7rem;
+}
+.tit2 .text-line{
+    color: #999;
+}
+.more-text{
+    justify-content: center;
+    padding:0.5rem 0;
+}
+.vip,.recommend,.expert,.ops,.medical{
+    background: #fff;
+}
+.pic{
+    width:100%;
+    height:5rem;
+    overflow: hidden;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+}
+.become-vip{
+    background: #fff;
+    box-shadow: 0 -0.4rem 1rem #e8e8e8;
+}
+.vip-btn{
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+}
+.item-name{
+    color: #0e0e0e;
+    font-size:0.75rem;
+    font-weight:bold;
+    height:2.2rem;
+}
+.price{
+    color: #fe0000;
+    font-weight:bold;
+}
+.vip-mark{
+    color: #fff;
+    background: linear-gradient(to right, #FF8385, #fe0000);
+    font-size:0.6rem;
+    line-height: 1.1rem;
+    padding:0 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    margin:0 0.25rem 0 0.5rem;
+}
+.icon-btn{
+    width:3rem;
+    height:3rem;
+    margin:auto;
+}
+.item-message{
+    flex-wrap: wrap;
+}
+.item-tip{
+    color: #ccc;
+    font-size: 0.6rem;
+}

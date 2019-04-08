@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/css/aui.css"/>
+    <link rel="stylesheet" type="text/css" href="../../lib/css/aui-slide.css"/>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+<div class="aui-content">
+    <header class="login-head">
+        <a href="javascript:history.go(-1)"><p class="back"><i class="aui-iconfont aui-icon-left"></i></p></a>
+        <p class="tit">注册</p>
+    </header>
+    <div class="main-write main-active">
+        <div class="input-box">
+            <select class="aui-margin-l-5">
+                <option>+86</option>
+                <option>+123</option>
+                <option>+010</option>
+            </select>
+            <div class="con"><input type="text" placeholder="请输入您的手机号码"></div>
+        </div>
+        <div class="input-box check-input">
+            <p class="icon"><img src="../../image/share/001.png" alt=""></p>
+            <div class="con aui-margin-l-15"><input type="text" placeholder="请输入验证码"></div>
+            <div class="aui-btn aui-btn-warning check-btn">获取验证码</div>
+        </div>
+        <div class="input-box">
+            <p class="icon"><img src="../../image/share/003.png" alt=""></p>
+            <div class="con aui-margin-l-15"><input type="text" placeholder="请输入真实姓名"></div>
+        </div>
+        <div class="input-box">
+            <p class="icon"><img src="../../image/share/006.png" alt=""></p>
+            <div class="con aui-margin-l-15"><input type="text" placeholder="请输入所在医院"></div>
+        </div>
+        <div class="input-box">
+            <p class="icon"><img src="../../image/share/004.png" alt=""></p>
+            <div class="con aui-margin-l-15"><input type="text" placeholder="请输入所在科室"></div>
+        </div>
+        <div class="input-box">
+            <p class="icon"><img src="../../image/share/005.png" alt=""></p>
+            <div class="con aui-margin-l-15"><input type="text" placeholder="请输入您的职称"></div>
+        </div>
+        <div class="login-btn aui-padded-l-15 aui-padded-r-15">
+            <div class="aui-btn aui-btn-warning aui-btn-block" id="nextBtn">下一步</div>
+        </div>
+    </div>
+    <div class="main-write">
+        <div class="input-box">
+            <p class="icon"><img src="../../image/share/001.png" alt=""></p>
+            <div class="con aui-margin-l-15"><input type="text" placeholder="请输入密码"></div>
+        </div>
+        <div class="input-box">
+            <p class="icon"><img src="../../image/share/001.png" alt=""></p>
+            <div class="con aui-margin-l-15"><input type="password" placeholder="请再次确认密码"></div>
+        </div>
+        <div class="login-btn aui-padded-l-15 aui-padded-r-15">
+            <div class="aui-btn aui-btn-warning aui-btn-block">提交</div>
+        </div>
+        <div class="login-help aui-padded-15 flex">
+            <p id="prevBtn">上一步</p>
+            <!--<p><a href="../findPassword/findPassword.html">忘记密码</a></p>-->
+        </div>
+    </div>
+    <div class="agree-text">注册即同意创伤<span>《服务使用协议》</span>和<span>《隐私政策》</span></div>
+</div>
+</body>
+<script src="../../lib/js/jquery-3.3.1.min.js"></script>
+<script src="../../lib/js/api.js"></script>
+<script type="text/javascript" src="../../lib/js/aui-slide.js"></script>
+<script type="text/javascript" src="../../lib/js/aui-dialog.js"></script>
+<script src="register.js"></script>
+</html>

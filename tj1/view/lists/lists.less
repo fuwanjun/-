@@ -1,0 +1,127 @@
+@orange:#ff9800;
+body{
+  background: #fff;
+  header{
+    width:100%;
+    height: 2rem;
+    background: #f8f8f8;
+    text-align: center;
+    /*font-weight:bold;*/
+    line-height: 2rem;
+    position: fixed;
+    z-index:9999;
+    top:0;
+    left:0;
+    p{
+      font-size: 1rem;
+    }
+    .tit{
+      font-weight:bold;
+    }
+    .aui-icon-share{
+      font-size:1rem;
+    }
+    .back{
+      position: absolute;
+      color: @orange;
+      top:0;
+      left:0;
+      width:2rem;
+      height:2rem;
+    }
+    .head-right-text{
+      position: absolute;
+      color:@orange;
+      top:0;
+      right:0.5rem;
+      font-size:0.8rem;
+      width:2rem;
+      height:2rem;
+    }
+  }
+  .aui-iconfont{
+    font-size:1rem;
+    font-weight: bold;
+  }
+  .chose-tab{
+    position: fixed;
+    width:100%;
+    background: #fff;
+    justify-content: space-around;
+    .tab{
+      color:#333;
+    }
+    .tab-active{
+      color:@orange;
+      border-bottom:2px solid @orange;
+    }
+  }
+  .aui-content{
+    margin-top:2rem;
+    padding-top:2rem;
+    .con-lists{
+      display: none;
+      li{
+        margin-top:0.5rem;
+        margin-bottom:1rem;
+        .con{
+          justify-content: space-between;
+          .con-left{
+            width:~"calc(100% - 5.5rem)";
+            .con-tit{
+              font-size:0.8rem;
+              color: #333;
+            }
+            .con-text{
+              font-size:0.6rem;
+            }
+          }
+          .con-right{
+            width:5.5rem;
+            height:3.5rem;
+          }
+          .con-tit{
+            font-size:0.8rem;
+            color: #333;
+          }
+          .con-text{
+            font-size:0.6rem;
+          }
+        }
+        .tag{
+          justify-content: space-between;
+          flex-wrap: wrap;
+          .tag-left{
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            .tag-img{
+              width:1rem;
+              height:1rem;
+            }
+          }
+          .tag-right{
+            .tag-item{
+              background: #f7f7f7;
+              color: #cacaca;
+              padding:0 0.5rem;
+              -webkit-border-radius: 0.25rem;
+              -moz-border-radius: 0.25rem;
+              border-radius: 0.25rem;
+            }
+          }
+        }
+      }
+    }
+    .list-active{
+      display: block;
+    }
+  }
+}
+
+img{
+  width:100%;
+  //height:100%;
+}
+.flex{
+  display: flex;
+}

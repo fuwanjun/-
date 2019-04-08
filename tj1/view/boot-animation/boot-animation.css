@@ -1,0 +1,19 @@
+.animate-box{
+    width:100%;
+    position: absolute;
+    z-index:9999;
+    top:0;
+    background: #fff;
+}
+.animate-box img{
+    width:100%;
+    height:auto;
+}
+.goBtn{
+    height:2rem;
+    width:50%;
+    position: absolute;
+    bottom:11.2%;
+    margin-left:25%;
+    opacity: 0;
+}

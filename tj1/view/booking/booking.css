@@ -1,0 +1,225 @@
+*{
+    font-family:SourceHanSansCN;
+}
+header {
+    width:100%;
+    height: 2rem;
+    background: #fff;
+    text-align: center;
+    /*font-weight:bold;*/
+    line-height: 2rem;
+    position: fixed;
+    z-index:9999;
+    top:0;
+    left:0;
+}
+header p {
+    font-size: 1rem;
+}
+header .tit{
+    font-weight:bold;
+}
+.flex{
+    display: flex;
+}
+.back{
+    position: absolute;
+    top:0;
+    left:0;
+    width:2rem;
+    height:2rem;
+}
+.head-right-text{
+    position: absolute;
+    color: #b2b2b2;
+    top:0;
+    right:0.5rem;
+    font-size:0.8rem;
+    width:2rem;
+    height:2rem;
+}
+.aui-content{
+    /*background: #fff;*/
+}
+.tickets{
+    margin-top:2rem;
+    background: #fff;
+}
+.ticket-item{
+    background: #fff;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 2px #ccc;
+}
+.item-r-top{
+    border-bottom:1px dashed #cfcfcf;
+}
+.item-r-bottom{
+    justify-content: space-between;
+}
+.add-box{
+    background: #fff;
+    margin-bottom:2.5rem;
+}
+.add-bottom{
+    justify-content: space-between;
+}
+.aui-switch:checked{
+    border-color: #FFBB1B;
+    background-color: #FFBB1B;
+}
+.operation{
+    border-bottom:1px solid #f4f4f4;
+}
+.btns{
+    position: fixed;
+    bottom:0;
+    width:100%;
+}
+.btns .aui-btn{
+    padding:0.5rem 0;
+    height:auto;
+    font-size:0.8rem;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.btns .aui-btn:nth-of-type(1){
+    flex:1;
+    background: #fff;
+}
+.btns .aui-btn:nth-of-type(2){
+    flex:2;
+}
+.aui-btn span{
+    color: #FFBB1B;
+    font-weight:bold;
+}
+.aui-bar-btn-item.aui-active {
+    background-color: #FFBB1B;
+}
+.aui-bar-btn-item{
+    border-color: #FFBB1B;
+}
+.aui-bar-btn .aui-input{
+    height:0.5rem;
+}
+.aui-mask{
+    display: none;
+    z-index:999;
+}
+#pay-box{
+    position: fixed;
+    width:100%;
+    background: #fff;
+    z-index:1000;
+    bottom:0;
+    display: none;
+}
+#pay{
+    width:90%;
+    margin-left:5%;
+    height:auto;
+}
+.pay-tit{
+    font-size:0.8rem;
+    text-align: center;
+    font-weight:bold;
+    padding-top:0.25rem;
+    padding-bottom:0.25rem;
+    background: #FCFCFC;
+}
+.money{
+    font-size:0.9rem;
+    color: #333;
+    text-align: center;
+    font-weight:bold;
+}
+.pay-item{
+    justify-content: space-between;
+    padding:0.5rem 0;
+    border-top:2px solid #f4f4f4;
+
+}
+.aui-radio:checked{
+    background-color: #FFBB1B;
+    border: solid 1px #FFBB1B;
+}
+.pay-icon{
+    width:1.5rem;
+    height:1.5rem;
+}
+img{
+    width:100%;
+    height:100%;
+}
+.pay-text{
+    margin-left:0.25rem;
+    line-height: 1.5rem;
+}
+.pay-r input{
+    margin-top:0.15rem;
+}
+.aui-icon-date{
+    font-size:1.2rem;
+    margin-left:0.3rem;
+}
+.aui-icon-my{
+    font-size:1rem;
+}
+.ticket-num{
+    font-size:0.8rem;
+    color: #FFBB1B;
+    font-weight:bold;
+}
+.ticket-style{
+    font-size:1rem;
+    color: #a2a2a2;
+}
+.ticket-active{
+    background: #f2f2f2;
+}
+#invoice-con{
+    width:100%;
+    position: fixed;
+    z-index:9999;
+    /*top:0;*/
+    /*bottom:0;*/
+    background: #fff;
+    display: none;
+}
+#invoice-con .back{
+    text-align: center;
+}
+#invoice-con .back .aui-icon-left{
+    line-height: 2rem;
+
+    font-size:1rem;
+}
+.pull-icon{
+    width:1.5rem;
+    height:1.2rem;
+    margin:auto;
+}
+#ok{
+    position: absolute;
+    bottom:0.5rem;
+    width:90%;
+    margin-left:5%;
+    height:auto;
+    font-size:0.8rem;
+}
+.aui-form-list{
+    font-size:0.75rem;
+}
+.aui-form-list input::placeholder{
+    font-size:0.75rem;
+}
+.aui-list .aui-list-item-label{
+    width:50%;
+}
+#count{
+    height:auto;
+    padding:0;
+}

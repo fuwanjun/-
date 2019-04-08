@@ -1,0 +1,108 @@
+body {
+  font-family: "Helvetica Neue,Helvetica,Roboto,Segoe UI,Arial,sans-serif";
+}
+body header {
+  width: 100%;
+  height: 2rem;
+  background: #fff;
+  text-align: center;
+  /*font-weight:bold;*/
+  line-height: 2rem;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+body header p {
+  font-size: 1rem;
+}
+body header .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+}
+body .aui-content {
+  background: #f6f6f6;
+}
+body .aui-content #aui-slide {
+  margin-top: 2rem;
+  background: #fff;
+}
+body .aui-content #aui-slide .aui-slide-wrap .aui-slide-node {
+  width: calc(100% - 1rem);
+  margin-left: 0.5rem;
+}
+body .aui-content .arts {
+  background: #fff;
+}
+body .aui-content .arts .lists .list-item {
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+}
+body .aui-content .arts .lists .list-item .item-left {
+  width: 5.5rem;
+  height: 3.5rem;
+}
+body .aui-content .arts .lists .list-item .item-right {
+  width: calc(100% - 6rem);
+}
+body .aui-content .arts .more {
+  font-weight: bold;
+  background: #fff;
+  text-align: center;
+  color: #ccc8c8;
+}
+body .aui-content .audios {
+  background: #fff;
+}
+body .aui-content .audios .audio-lists .audio-item .audio-img {
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+body .aui-content .audios .audio-lists .audio-item .audio-msg .audio-msg-left .msg-left-left {
+  width: 2rem;
+  height: 2rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 0.5rem;
+}
+body .aui-content .audios .audio-lists .audio-item .audio-msg .audio-msg-right .audio-num {
+  margin-left: 0.75rem;
+  margin-top: 1rem;
+}
+body .aui-content .audios .audio-lists .audio-item .audio-msg .audio-msg-right .audio-num .icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.icons p i {
+  font-size: 1rem;
+}
+.icons p .aui-icon-like {
+  color: #f00;
+  line-height: 2rem;
+}
+.icons p .aui-icon-display {
+  line-height: 2rem;
+}
+.l-text {
+  width: 60%;
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+.slide-box {
+  background: #fff;
+}
+.l-img {
+  width: 7.5rem !important;
+  height: 5rem;
+}

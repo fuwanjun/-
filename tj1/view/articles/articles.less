@@ -1,0 +1,124 @@
+body{
+  font-family:"Helvetica Neue,Helvetica,Roboto,Segoe UI,Arial,sans-serif";
+  header {
+    width:100%;
+    height: 2rem;
+    background: #fff;
+    text-align: center;
+    /*font-weight:bold;*/
+    line-height: 2rem;
+    position: fixed;
+    z-index:9999;
+    top:0;
+    left:0;
+    p {
+      font-size: 1rem;
+    }
+    .back{
+      position: absolute;
+      top:0;
+      left:0;
+      width:2rem;
+      height:2rem;
+    }
+  }
+  .aui-content{
+    background: #f6f6f6;
+    #aui-slide{
+      margin-top:2rem;
+      background: #fff;
+      .aui-slide-wrap{
+        .aui-slide-node{
+          width:~"calc(100% - 1rem)";
+          margin-left:0.5rem;
+        }
+      }
+    }
+    .arts{
+      background: #fff;
+      .lists{
+        .list-item{
+          justify-content: space-between;
+          border-bottom:1px solid #f0f0f0;
+          .item-left{
+            width:5.5rem;
+            height:3.5rem;
+          }
+          .item-right{
+            width:~"calc(100% - 6rem)";
+          }
+
+        }
+      }
+      .more{
+        font-weight:bold;
+        background: #fff;
+        text-align: center;
+        color: #ccc8c8;
+      }
+    }
+    .audios{
+      background: #fff;
+      .audio-lists{
+        .audio-item{
+          .audio-img{
+            -webkit-border-radius: 0.4rem;
+            -moz-border-radius: 0.4rem;
+            border-radius: 0.4rem;
+            border-radius: 0.4rem;
+            overflow: hidden;
+          }
+          .audio-msg{
+            .audio-msg-left{
+              .msg-left-left{
+                width:2rem;
+                height:2rem;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-right:0.5rem;
+              }
+            }
+            .audio-msg-right{
+              .audio-num{
+                margin-left:0.75rem;
+                margin-top:1rem;
+                .icon{
+                  width:1.2rem;
+                  height:1.2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.icons p i{
+  font-size:1rem;
+}
+.icons p .aui-icon-like{
+  color: #f00;
+  line-height: 2rem;
+}
+.icons p .aui-icon-display{
+  line-height: 2rem;
+}
+.l-text{
+  width: 60%;
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+.slide-box{
+  background: #fff;
+}
+.l-img {
+  width: 7.5rem !important;
+  height: 5rem;
+}

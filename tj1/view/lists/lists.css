@@ -1,0 +1,122 @@
+body {
+  background: #fff;
+}
+body header {
+  width: 100%;
+  height: 2rem;
+  background: #f8f8f8;
+  text-align: center;
+  /*font-weight:bold;*/
+  line-height: 2rem;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+body header p {
+  font-size: 1rem;
+}
+body header .tit {
+  font-weight: bold;
+}
+body header .aui-icon-share {
+  font-size: 1rem;
+}
+body header .back {
+  position: absolute;
+  color: #ff9800;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+}
+body header .head-right-text {
+  position: absolute;
+  color: #ff9800;
+  top: 0;
+  right: 0.5rem;
+  font-size: 0.8rem;
+  width: 2rem;
+  height: 2rem;
+}
+body .aui-iconfont {
+  font-size: 1rem;
+  font-weight: bold;
+}
+body .chose-tab {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  justify-content: space-around;
+}
+body .chose-tab .tab {
+  color: #333;
+}
+body .chose-tab .tab-active {
+  color: #ff9800;
+  border-bottom: 2px solid #ff9800;
+}
+body .aui-content {
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+body .aui-content .con-lists {
+  display: none;
+}
+body .aui-content .con-lists li {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+body .aui-content .con-lists li .con {
+  justify-content: space-between;
+}
+body .aui-content .con-lists li .con .con-left {
+  width: calc(100% - 5.5rem);
+}
+body .aui-content .con-lists li .con .con-left .con-tit {
+  font-size: 0.8rem;
+  color: #333;
+}
+body .aui-content .con-lists li .con .con-left .con-text {
+  font-size: 0.6rem;
+}
+body .aui-content .con-lists li .con .con-right {
+  width: 5.5rem;
+  height: 3.5rem;
+}
+body .aui-content .con-lists li .con .con-tit {
+  font-size: 0.8rem;
+  color: #333;
+}
+body .aui-content .con-lists li .con .con-text {
+  font-size: 0.6rem;
+}
+body .aui-content .con-lists li .tag {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body .aui-content .con-lists li .tag .tag-left {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+body .aui-content .con-lists li .tag .tag-left .tag-img {
+  width: 1rem;
+  height: 1rem;
+}
+body .aui-content .con-lists li .tag .tag-right .tag-item {
+  background: #f7f7f7;
+  color: #cacaca;
+  padding: 0 0.5rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+body .aui-content .list-active {
+  display: block;
+}
+img {
+  width: 100%;
+}
+.flex {
+  display: flex;
+}

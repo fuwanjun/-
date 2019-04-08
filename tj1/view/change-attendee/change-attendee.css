@@ -1,0 +1,61 @@
+*{
+
+}
+body{
+    position: relative;
+}
+header {
+    width:100%;
+    height: 2rem;
+    background: #fff;
+    text-align: center;
+    /*font-weight:bold;*/
+    line-height: 2rem;
+    position: fixed;
+    z-index:9999;
+    top:0;
+    left:0;
+}
+
+header p {
+    font-size: 1rem;
+}
+header .tit{
+    font-weight:bold;
+}
+.aui-icon-share{
+    font-size:1rem;
+}
+.flex{
+    display: flex;
+}
+.back{
+    position: absolute;
+    top:0;
+    left:0;
+    width:2rem;
+    height:2rem;
+}
+.head-right-text{
+    position: absolute;
+    color: #b2b2b2;
+    top:0;
+    right:0.5rem;
+    font-size:0.8rem;
+    width:2rem;
+    height:2rem;
+}
+.aui-form-list{
+    margin-top:2.1rem;
+}
+.aui-list-item-inner{
+    border-bottom:1px solid #f4f4f4;
+}
+#ok{
+    position: fixed;
+    bottom:0.5rem;
+    width:90%;
+    margin-left:5%;
+    height:auto;
+    font-size:0.8rem;
+}

@@ -1,0 +1,84 @@
+body{
+    background: #fff;
+    font-weight:bold;
+}
+header {
+    width:100%;
+    height: 2rem;
+    background: #f8f8f8;
+    text-align: center;
+    /*font-weight:bold;*/
+    line-height: 2rem;
+    position: fixed;
+    z-index:9999;
+    top:0;
+    left:0;
+}
+
+header p {
+    font-size: 1rem;
+}
+header .tit{
+    font-weight:bold;
+}
+img{
+    width:100%;
+}
+.aui-iconfont{
+    font-size:1rem;
+    font-weight: bold;
+}
+.aui-icon-share{
+    font-size:1rem;
+}
+.flex{
+    display: flex;
+}
+.back{
+    position: absolute;
+    top:0;
+    left:0;
+    width:2rem;
+    height:2rem;
+}
+.head-right-text{
+    position: absolute;
+    color: #ff9800;
+    top:0;
+    right:0.5rem;
+    font-size:0.8rem;
+    width:2rem;
+    height:2rem;
+}
+.aui-content{
+    margin-top:2rem;
+}
+.line-item{
+    display: flex;
+    border-bottom:1px solid #ddd;
+}
+.line-right{
+    color: #a6a1a1;
+}
+.item-top{
+    justify-content: space-between;
+}
+.left-tit{
+    font-size:0.8rem;
+    color: #333;
+}
+.logo{
+    width:3.5rem;
+    height:3.5rem;
+}
+.left-text{
+    font-size:0.8rem;
+    width:30%;
+}
+.bot-text{
+    font-size:0.7rem;
+    color: #a6a1a1;
+}
+.left-msg{
+    color: #a6a1a1;
+}

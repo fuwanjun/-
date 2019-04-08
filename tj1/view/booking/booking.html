@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>订票信息</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/css/aui.css"/>
+    <link rel="stylesheet" type="text/css" href="../../lib/css/aui-slide.css"/>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+<div class="aui-content">
+    <header>
+        <a href="javascript:history.go(-1)"><p class="back"><i class="aui-iconfont aui-icon-left"></i></p></a>
+        <p class="tit aui-text-default">订票信息</p>
+        <!--<p class="head-right-text">收藏</p>-->
+    </header>
+    <ul class="tickets aui-padded-l-10 aui-padded-r-10 aui-padded-t-10">
+        <li class="ticket-item ticket-active aui-padded-10 aui-margin-b-10 aui-row">
+            <div class="item-l aui-col-xs-2"><i class="aui-iconfont aui-icon-date"></i></div>
+            <div class="item-r aui-col-xs-10">
+                <div class="item-r-top aui-row">
+                    <div class="aui-col-xs-4">
+                        <p>剩余0张</p>
+                        <p class="ticket-num">￥950</p>
+                    </div>
+                    <div class="ticket-style aui-col-xs-4">特惠券</div>
+                    <div class="aui-col-xs-4">已结束</div>
+                </div>
+                <div class="item-r-bottom aui-padded-t-5 flex">
+                    <p>截止时间</p>
+                    <p>2018-09-03 13:59:59</p>
+                </div>
+            </div>
+        </li>
+        <li class="ticket-item aui-padded-10 aui-margin-b-10 aui-row">
+            <div class="item-l aui-col-xs-2"><i class="aui-iconfont aui-icon-date"></i></div>
+            <div class="item-r aui-col-xs-10">
+                <div class="item-r-top aui-row">
+                    <div class="aui-col-xs-4">
+                        <p>剩余0张</p>
+                        <p class="ticket-num">￥950</p>
+                    </div>
+                    <div class="ticket-style aui-col-xs-4">优惠券</div>
+                    <div class="aui-col-xs-4">
+                        <div class="aui-bar aui-bar-btn" style="width:100%;" type="count" id="demo">
+                            <div class="aui-bar-btn-item aui-font-size-20" tapmode="" data-item-order="0">
+                                <i class="aui-iconfont aui-icon-minus"></i>
+                            </div>
+                            <div class="aui-bar-btn-item" tapmode="" data-item-order="1">
+                                <input type="number" class="aui-input aui-text-center" id="count" value="1">
+                            </div>
+                            <div class="aui-bar-btn-item aui-font-size-20" tapmode="" data-item-order="2">
+                                <i class="aui-iconfont aui-icon-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-r-bottom aui-padded-t-5 flex">
+                    <p>截止时间</p>
+                    <p>2018-09-03 13:59:59</p>
+                </div>
+            </div>
+        </li>
+        <li class="ticket-item aui-padded-10 aui-margin-b-10 aui-row">
+            <div class="item-l aui-col-xs-2"><i class="aui-iconfont aui-icon-date"></i></div>
+            <div class="item-r aui-col-xs-10">
+                <div class="item-r-top aui-row">
+                    <div class="aui-col-xs-4">
+                        <p>剩余0张</p>
+                        <p class="ticket-num">￥950</p>
+                    </div>
+                    <div class="ticket-style aui-col-xs-4">普通券</div>
+                    <div class="aui-col-xs-4">已结束</div>
+                </div>
+                <div class="item-r-bottom aui-padded-t-5 flex">
+                    <p>截止时间</p>
+                    <p>2018-09-03 13:59:59</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="add-box aui-padded-l-10 aui-padded-r-10">
+        <div class="operation aui-row aui-padded-10">
+            <div class="aui-col-xs-2"><i class="aui-iconfont aui-icon-my"></i></div>
+            <div class="add-bottom aui-col-xs-10 flex">
+                <p>添加参会人</p>
+                <p><i class="aui-iconfont aui-icon-right"></i></p>
+            </div>
+        </div>
+        <div class="operation aui-row aui-padded-10">
+            <div class="aui-col-xs-2">&nbsp;</div>
+            <div class="item-r-bottom aui-col-xs-10 flex">
+                <p>是否开票</p>
+                <p><input id="invoice" type="checkbox" class="aui-switch"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="btns flex">
+    <div class="aui-btn">合计:<span>￥950</span></div>
+    <div id="sign-up" class="aui-btn aui-btn-warning">立即支付</div>
+</div>
+<div class="aui-mask aui-mask-in"></div>
+<div id="pay-box">
+    <p class="pay-tit">选择支付</p>
+    <p class="money">￥19.00</p>
+    <ul>
+        <li class="pay-item flex">
+            <div class="pay-l flex aui-margin-l-15">
+                <div class="pay-icon"><img src="../../image/share/wx-pay.png" alt=""></div>
+                <p class="pay-text">微信支付</p>
+            </div>
+            <div class="pay-r aui-margin-r-15"><input class="aui-radio" type="radio" name="payType" checked></div>
+        </li>
+        <li class="pay-item flex">
+            <div class="pay-l flex aui-margin-l-15">
+                <div class="pay-icon"><img src="../../image/share/zfb-pay.png" alt=""></div>
+                <p class="pay-text">支付宝</p>
+            </div>
+            <div class="pay-r aui-margin-r-15"><input class="aui-radio" type="radio" name="payType"></div>
+        </li>
+    </ul>
+    <div id="pay" class="aui-btn aui-padded-t-5 aui-padded-b-5 aui-margin-b-10 aui-btn-warning">立即支付</div>
+</div>
+<div id="invoice-con">
+    <p id="back2" class="back"><i class="aui-iconfont aui-icon-left"></i>
+    <ul class="tickets aui-padded-l-10 aui-padded-r-10 aui-padded-t-10">
+        <li class="ticket-item ticket-active aui-padded-10 aui-margin-b-10 aui-row">
+            <div class="item-l aui-col-xs-2"><i class="aui-iconfont aui-icon-date"></i></div>
+            <div class="item-r aui-col-xs-10">
+                <div class="item-r-top aui-row">
+                    <div class="aui-col-xs-4">
+                        <p>剩余0张</p>
+                        <p class="ticket-num">￥950</p>
+                    </div>
+                    <div class="ticket-style aui-col-xs-4">特惠券</div>
+                    <div class="aui-col-xs-4">已结束</div>
+                </div>
+                <div class="item-r-bottom aui-padded-t-5 flex">
+                    <p>截止时间</p>
+                    <p>2018-09-03 14:00:00</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="pull-icon aui-margin-b-10"><img src="../../image/share/pull.png" alt=""></div>
+    <ul class="aui-list aui-form-list">
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner">
+                <div class="aui-list-item-label">发票类型</div>
+                <div class="aui-list-item-input">
+                    <input type="text" placeholder="咨询费">
+                </div>
+            </div>
+        </li>
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner">
+                <div class="aui-list-item-label">发票抬头</div>
+                <div class="aui-list-item-input">
+                    <input type="text" placeholder="请输入发票抬头">
+                </div>
+            </div>
+        </li>
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner">
+                <div class="aui-list-item-label">发票内容</div>
+                <div class="aui-list-item-input">
+                    <input type="text" placeholder="请输入发票内容">
+                </div>
+            </div>
+        </li>
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner">
+                <div class="aui-list-item-label">收件人姓名</div>
+                <div class="aui-list-item-input">
+                    <input type="text" placeholder="请输入您的职称">
+                </div>
+            </div>
+        </li>
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner">
+                <div class="aui-list-item-label">收件人电话</div>
+                <div class="aui-list-item-input">
+                    <input type="text" placeholder="请输入收件人电话">
+                </div>
+            </div>
+        </li>
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner">
+                <div class="aui-list-item-label">发票邮寄地址</div>
+                <div class="aui-list-item-input">
+                    <input type="text" placeholder="请输入邮寄地址">
+                </div>
+            </div>
+        </li>
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner">
+                <div class="aui-list-item-label">纳税人识别号</div>
+                <div class="aui-list-item-input">
+                    <input type="text" placeholder="请输入纳税人识别号">
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div id="ok" class="aui-btn aui-padded-t-5 aui-padded-b-5 aui-btn-warning">确&nbsp;&nbsp;认</div>
+</div>
+</body>
+<script src="../../lib/js/jquery-3.3.1.min.js"></script>
+<script src="../../lib/js/api.js"></script>
+<script type="text/javascript" src="../../lib/js/aui-slide.js"></script>
+<script src="booking.js"></script>
+</html>

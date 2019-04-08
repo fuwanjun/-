@@ -1,0 +1,152 @@
+body {
+  position: relative;
+}
+body header {
+  width: 100%;
+  height: 2rem;
+  background: #fff;
+  text-align: center;
+  /*font-weight:bold;*/
+  line-height: 2rem;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #f6f6f6;
+}
+body header p {
+  font-size: 1rem;
+}
+body header .tit {
+  font-weight: bold;
+}
+body header .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  color: #FF9800;
+  font-weight: bold;
+}
+body .aui-content {
+  margin-top: 2rem;
+  background: #fff;
+}
+body .aui-content .article-tit {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+body .aui-content .author-msg {
+  justify-content: space-between;
+}
+body .aui-content .author-msg .author-left .auyhor-img {
+  width: 2rem;
+  height: 2rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+body .aui-content .article-con .con-item p {
+  font-size: 0.7rem;
+  color: #101010;
+  font-weight: bold;
+}
+body .aui-content .relevant .tags {
+  flex-wrap: wrap;
+}
+body .aui-content .relevant .tags .tag {
+  background: #f7f7f7;
+  color: #cacaca;
+  line-height: 1.2rem;
+  font-size: 0.65rem;
+}
+body .comment {
+  border-top: 2px solid #f7f7f7;
+}
+body .comment .aui-searchbar {
+  background: #fff;
+}
+body .comment .aui-searchbar .aui-searchbar-input {
+  background: #f7f7f7;
+}
+body .share-box {
+  width: 100%;
+  background: #F4F4F4;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  display: none;
+}
+body .share-box .share-items {
+  justify-content: space-around;
+}
+body .share-box .share-items .icon-box {
+  background: #fff;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+}
+body .share-box .share-items .icon-box .share-icon {
+  width: 2rem;
+  height: 2rem;
+  margin: auto;
+}
+body .share-box .share-items .share-text {
+  text-align: center;
+  margin-top: 0.25rem;
+}
+body .share-box .close-mask {
+  width: 100%;
+  font-size: 0.9rem;
+  color: #FFBB1B;
+  text-align: center;
+  padding: 10px 0;
+}
+body .share-mask {
+  display: none;
+}
+body .com2 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: none;
+  z-index: 9999;
+  background: #f6f6f6;
+}
+body .com2 .com-top {
+  justify-content: space-between;
+}
+body .com2 .com-top .com-text {
+  color: #333;
+  font-size: 0.75rem;
+}
+body .com2 .com-top .release-btn {
+  color: #FF9800;
+  font-size: 0.75rem;
+}
+body .com2 textarea {
+  background: #fff;
+  height: 8rem;
+}
+.flex {
+  display: flex;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.close-mask:active {
+  background: #fff;
+}
+.icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  position: relative;
+}
+.aui-badge {
+  top: -0.2rem;
+}

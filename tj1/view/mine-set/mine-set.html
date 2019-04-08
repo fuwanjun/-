@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>设置</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/css/aui.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="../../lib/css/aui-slide.css"/>-->
+    <link rel="stylesheet" type="text/css" href="mine-set.css">
+</head>
+<body>
+<header>
+    <a href="javascript:history.go(-1)"><p class="back"><i class="aui-iconfont aui-icon-left"></i></p></a>
+    <p class="tit aui-text-default">设置</p>
+    <div class="share head-right-text"></div>
+</header>
+<div class="aui-content">
+    <ul class="aui-list aui-list-in">
+        <li class="aui-list-item aui-padded-t-5 aui-padded-b-5">
+            <div class="aui-list-item-inner aui-list-item-arrow">
+                头像
+                <div class="head"><img src="../../image/share/user.png" alt=""></div>
+            </div>
+        </li>
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner aui-list-item-arrow">
+                昵称
+                <p class="list-text nick-name">张习福Hunter</p>
+            </div>
+        </li>
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner aui-list-item-arrow">
+                手机号
+                <p class="list-text phone">15050577801</p>
+            </div>
+        </li>
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner aui-list-item-arrow">
+                微信
+                <p class="list-text wx-num">fuwanjun826717022</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="aui-list aui-margin-b-10 aui-list-in">
+        <li id="recommend" class="aui-list-item">
+            <div class="aui-list-item-inner aui-list-item-arrow">推荐给朋友</div>
+        </li>
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner aui-list-item-arrow">
+                清理缓存
+                <p class="list-text cookie-num">1.2M</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="aui-mask share-mask aui-mask-in"></div>
+<div class=" share-box ">
+    <div class="aui-padded-15 share-items flex">
+        <div class="share-item" id="share-wx">
+            <div class="icon-box aui-padded-15">
+                <div class="share-icon"><img src="../../image/share/wx.png" alt=""></div>
+            </div>
+            <p class="share-text">微信</p>
+        </div>
+        <div class="share-item" id="share-circle">
+            <div class="icon-box aui-padded-15">
+                <div class="share-icon"><img src="../../image/share/wx-circle.png" alt=""></div>
+            </div>
+            <p class="share-text">朋友圈</p>
+        </div>
+        <div class="share-item" id="share-copy">
+            <div class="icon-box aui-padded-15">
+                <div class="share-icon"><img src="../../image/share/copy.png" alt=""></div>
+            </div>
+            <p class="share-text">复制链接</p>
+        </div>
+    </div>
+    <div class="close-mask">取&nbsp;&nbsp;消</div>
+</div>
+</body>
+<script src="../../lib/js/jquery-3.3.1.min.js"></script>
+<script src="../../lib/js/api.js"></script>
+<script src="mine-set.js"></script>
+</html>

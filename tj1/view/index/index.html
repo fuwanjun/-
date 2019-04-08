@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/css/aui.css"/>
+    <link rel="stylesheet" type="text/css" href="../../lib/css/aui-slide.css"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="aui-content">
+    <div class="aui-searchbar" id="search">
+        <i class="aui-iconfont aui-icon-left iconBack"></i>
+        <div class="aui-searchbar-input aui-border-radius">
+            <i class="aui-iconfont aui-icon-search"></i>
+            <form action="javascript:search();">
+                <input type="search" placeholder="请输入搜索内容" id="search-input">
+            </form>
+        </div>
+        <div class="aui-searchbar-cancel searchBtn">
+            <img src="../../image/share/remind.png" alt="">
+        </div>
+    </div>
+    <div id="aui-slide">
+        <div class="aui-slide-wrap">
+            <div class="aui-slide-node bg-dark">
+                <img src="../../image/banner1.png"/>
+            </div>
+            <div class="aui-slide-node bg-dark">
+                <img src="../../image/banner1.png"/>
+            </div>
+            <div class="aui-slide-node bg-dark">
+                <img src="../../image/banner1.png"/>
+            </div>
+        </div>
+        <div class="aui-slide-page-wrap"><!--分页容器--></div>
+    </div>
+    <section class="aui-content aui-margin-b-10">
+        <div class="aui-grid">
+            <div class="aui-row">
+                <a href="../live/live.html">
+                    <div class="aui-col-xs-3">
+                        <div class="icon"><img src="../../image/share/home-icon1.png" alt=""></div>
+                        <div class="aui-grid-label">公开课</div>
+                    </div>
+                </a>
+                <div class="aui-col-xs-3">
+                    <div class="icon"><img src="../../image/share/home-icon2.png" alt=""></div>
+                    <div class="aui-grid-label">微课堂</div>
+                </div>
+                <div class="aui-col-xs-3">
+                    <div class="icon"><img src="../../image/share/home-icon3.png" alt=""></div>
+                    <div class="aui-grid-label">天玑学院</div>
+                </div>
+                <div class="aui-col-xs-3">
+                    <div class="icon"><img src="../../image/share/home-icon4.png" alt=""></div>
+                    <div class="aui-grid-label">商城</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--最新动态-->
+    <div class="aui-content">
+        <div class="aui-info aui-margin-t-10 aui-padded-l-10 aui-padded-r-10">
+            <div class="aui-info-item">
+                <div class="aui-text-default news-tit">最新动态</div>
+            </div>
+            <!--<div class="aui-info-item">查看更多<i class="aui-iconfont aui-icon-right"></i></div>-->
+        </div>
+        <div class="new-msg">
+            <ul class="msg-lists">
+                <li class="msg-item aui-margin-l-10 aui-margin-r-10">
+                    <div class="item-pic"><img src="../../image/con3.png" alt=""></div>
+                    <div class="item-text aui-ellipsis-2 aui-padded-5">测测试文本测试文本测试文本试文本</div>
+                </li>
+                <li class="msg-item aui-margin-l-10 aui-margin-r-10">
+                    <div class="item-pic"><img src="../../image/con4.png" alt=""></div>
+                    <div class="item-text aui-ellipsis-2 aui-padded-5">测试文本测试文本测试文本测试文本</div>
+                </li>
+                <li class="msg-item aui-margin-l-10 aui-margin-r-10">
+                    <div class="item-pic"><img src="../../image/con5.png" alt=""></div>
+                    <div class="item-text aui-ellipsis-2 aui-padded-5">测试文本测试文本测试文本测试文本测试文本测试文本测试文本</div>
+                </li>
+                <li class="msg-item aui-margin-l-10 aui-margin-r-10">
+                    <div class="item-pic"><img src="../../image/con6.png" alt=""></div>
+                    <div class="item-text aui-ellipsis-2 aui-padded-5">测试文本测试文本测试文本测试文本测试文本测试文本测试文本</div>
+                </li>
+            </ul>
+        </div>
+        <div class="more">更多 <i class="aui-iconfont aui-icon-right"></i></div>
+    </div>
+
+    <!--学术头条-->
+    <div class="aui-content aui-margin-t-10 aui-margin-b-15">
+        <div class="aui-b">
+            <div class="aui-list-header aui-margin-10">
+                <div class="aui-text-default news-tit">学术头条</div>
+            </div>
+            <ul class="learn-list">
+                <li class="aui-list-item aui-margin-l-10 aui-margin-r-10 aui-margin-b-10 flex">
+                    <div class="item-left aui-margin-r-10">
+                        <div class="left-tit aui-ellipsis-2">老年股骨颈骨折的F型空心钉固定技术介绍</div>
+                        <div class="left-con aui-ellipsis-2">王浩·解放军总医院第七医学中心创伤骨科</div>
+                        <p class="watch-num aui-padded-t-5 aui-padded-b-5"><span>888</span>人浏览</p>
+                    </div>
+                    <div class="item-right">
+                        <div class="right-img"><img src="../../image/con8.png" alt=""></div>
+                    </div>
+                </li>
+                <li class="aui-list-item aui-margin-l-10 aui-margin-r-10 aui-margin-b-10 flex">
+                    <div class="item-left aui-margin-r-10">
+                        <div class="left-tit aui-ellipsis-2">老年股骨颈骨折的F型空心钉固定技术介绍</div>
+                        <div class="left-con aui-ellipsis-2">王浩·解放军总医院第七医学中心创伤骨科</div>
+                        <p class="watch-num aui-padded-t-5 aui-padded-b-5"><span>888</span>人浏览</p>
+                    </div>
+                    <div class="item-right">
+                        <div class="right-img"><img src="../../image/con8.png" alt=""></div>
+                    </div>
+                </li>
+                <li class="aui-list-item aui-margin-l-10 aui-margin-r-10 aui-margin-b-10 flex">
+                    <div class="item-left aui-margin-r-10">
+                        <div class="left-tit aui-ellipsis-2">老年股骨颈骨折的F型空心钉固定技术介绍</div>
+                        <div class="left-con aui-ellipsis-2">王浩·解放军总医院第七医学中心创伤骨科</div>
+                        <p class="watch-num aui-padded-t-5 aui-padded-b-5"><span>888</span>人浏览</p>
+                    </div>
+                    <div class="item-right">
+                        <div class="right-img"><img src="../../image/con8.png" alt=""></div>
+                    </div>
+                </li>
+            </ul>
+            <div class="more">更多 <i class="aui-iconfont aui-icon-right"></i></div>
+        </div>
+    </div>
+
+    <!--天玑学院-->
+    <div class="aui-content aui-margin-b-15">
+        <div class="slide-box">
+            <div class="banner aui-padded-l-10 aui-padded-r-10"><img src="../../image/vip-item8.jpg" alt=""></div>
+        </div>
+        <div class="aui-margin-l-10 aui-margin-r-10 aui-padded-10 flex">
+            <div class="intro-btn">天玑简介</div>
+            <p><i class="aui-iconfont aui-icon-right intro-arrow"></i></p>
+        </div>
+        <div class="aui-margin-10 intro-text">
+            “天玑”是全球唯一骨全科机器人，还是纯正中国制造！天玑骨科手术机器人能利用光学技术实时追踪患者移动，采用机器人自动补偿，显著提高手术精度。
+        </div>
+    </div>
+    <ul class="learn-list">
+        <li class="aui-list-item aui-margin-l-10 aui-margin-r-10 aui-margin-b-10 flex">
+            <div class="item-right">
+                <div class="right-img"><img src="../../image/vip-item6.jpg" alt=""></div>
+            </div>
+            <div class="item-left aui-margin-l-10">
+                <div class="left-tit aui-ellipsis-2">误差不到1分钟！"透视眼"骨科手术机器人天玑&开工了！</div>
+                <div class="left-con aui-ellipsis-2">如果不小心骨折，你是否会选择用骨科手术</div>
+            </div>
+        </li>
+        <li class="aui-list-item aui-margin-l-10 aui-margin-r-10 aui-margin-b-10 flex">
+            <div class="item-right">
+                <div class="right-img"><img src="../../image/vip-item6.jpg" alt=""></div>
+            </div>
+            <div class="item-left aui-margin-l-10">
+                <div class="left-tit aui-ellipsis-2">误差不到1分钟！"透视眼"骨科手术机器人天玑&开工了！</div>
+                <div class="left-con aui-ellipsis-2">如果不小心骨折，你是否会选择用骨科手术</div>
+            </div>
+        </li>
+        <li class="aui-list-item aui-margin-l-10 aui-margin-r-10 aui-margin-b-10 flex">
+            <div class="item-right">
+                <div class="right-img"><img src="../../image/vip-item6.jpg" alt=""></div>
+            </div>
+            <div class="item-left aui-margin-l-10">
+                <div class="left-tit aui-ellipsis-2">误差不到1分钟！"透视眼"骨科手术机器人天玑&开工了！</div>
+                <div class="left-con aui-ellipsis-2">如果不小心骨折，你是否会选择用骨科手术</div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div id="searchBox" class="aui-padded-15">
+    <p class="search-tit">热门搜索</p>
+    <ul class="search-btns">
+        <li class="btn-item aui-margin-r-5 aui-margin-b-5 flex"><div class="hot-icon"><img src="../../image/hot.png" alt=""></div><p>电信董事长调任</p></li>
+        <li class="btn-item aui-margin-r-5 aui-margin-b-5 flex"><div class="hot-icon hot-active"><img src="../../image/hot.png" alt=""></div><p>猛龙VS活塞</p></li>
+        <li class="btn-item aui-margin-r-5 aui-margin-b-5 flex"><div class="hot-icon"><img src="../../image/hot.png" alt=""></div><p>骨科</p></li>
+        <li class="btn-item aui-margin-r-5 aui-margin-b-5 flex"><div class="hot-icon hot-active"><img src="../../image/hot.png" alt=""></div><p>鼻塞</p></li>
+        <li class="btn-item aui-margin-rr-5 aui-margin-b-5 flex"><div class="hot-icon"><img src="../../image/hot.png" alt=""></div><p>激光手术</p></li>
+    </ul>
+    <div class="search-top">
+    	<p class="search-tit">搜索历史</p>
+    	<p class="search-clear">全部清空</p>
+    </div>
+    <ul class="search-history">
+    	<li class="history-item"><i class="aui-iconfont aui-icon-search"></i><p class="aui-ellipsis-1">牙周炎的治疗</p><i class="aui-iconfont aui-icon-close"></i></li>
+    	<li class="history-item"><i class="aui-iconfont aui-icon-search"></i><p class="aui-ellipsis-1">水果</p><i class="aui-iconfont aui-icon-close"></i></li>
+    	<li class="history-item"><i class="aui-iconfont aui-icon-search"></i><p class="aui-ellipsis-1">骨裂</p><i class="aui-iconfont aui-icon-close"></i></li>
+    </ul>
+</div>
+</body>
+<script src="../../lib/js/jquery-3.3.1.min.js"></script>
+<script src="../../lib/js/api.js"></script>
+<script type="text/javascript" src="../../lib/js/aui-slide.js"></script>
+<script src="index.js"></script>
+</html>
